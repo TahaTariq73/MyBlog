@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+
+{% block title %} Post {% endblock title %}
+
+{% block body %} 
+<br>
+
+{% if post == none %}
+<h2 class="text-2xl text-indigo-700 title-font mb-2 font-bold  sm:px-12 md:px-24"> No post found! </h2>
+{% endif %}
+
+<section class="text-gray-600 body-font overflow-hidden" id="posts-section" style="min-height: 70vh;">
+    <div id="posts-container" class="container px-6 sm:px-12 md:px-24 py-2 mx-auto" style="font-family: 'Baloo 2', cursive;">
+        <div class="flex flex-col justify-center py-12">
+            <h2 class="text-2xl text-indigo-700 title-font mb-2 font-bold"> {{post.post_title}} </h2>
+            <p class="leading-relaxed"> {{post.post_content}} </p>
+            <p class="text-indigo-700 inline-flex items-center mt-4"> {{post.post_date}} </p>
+        </div>
+    </div>
+</section>
+{% endblock body %}

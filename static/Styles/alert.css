@@ -1,0 +1,50 @@
+.alert-danger{
+    position: relative; 
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem; 
+    padding-left: 1rem;
+    padding-right: 1rem; 
+    background-color: #FEE2E2; 
+    color: #B91C1C; 
+    border-radius: 0.25rem; 
+    border-width: 1px; 
+    border-color: #F87171; 
+}
+
+.alert-success{
+    position: relative; 
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem; 
+    padding-left: 1rem;
+    padding-right: 1rem; 
+    background-color: #D1FAE5; 
+    color: #047857; 
+    border-radius: 0.25rem; 
+    border-width: 1px; 
+    border-color: #34D399; 
+}
+
+.alert-span{
+    position: absolute; 
+    top: 0; 
+    right: 0; 
+    bottom: 0; 
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem; 
+    padding-left: 1rem;
+    padding-right: 1rem; 
+}
+
+.cross-icon-danger{
+    color: #EF4444; 
+    width: 1.5rem; 
+    height: 1.5rem; 
+    fill: currentColor;     
+}
+
+.cross-icon-success{
+    color: #10B981; 
+    width: 1.5rem; 
+    height: 1.5rem; 
+    fill: currentColor; 
+}

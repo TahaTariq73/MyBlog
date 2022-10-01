@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="{{ url_for('static', filename='Images/logo.png') }}" type="image/x-icon">
+    <link rel="stylesheet" href="{{ url_for('static', filename='Styles/components.css') }}">
+
+    <title> Admin Panel </title>
+</head>
+
+<body>
+    {% block body %}
+    {% endblock body %}
+</body>
+
+{% block js %}
+{% endblock js %}
+
+</html>

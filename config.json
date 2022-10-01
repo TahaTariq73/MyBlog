@@ -1,0 +1,11 @@
+{
+    "params" : {
+        "DATABASE_URI" : "sqlite:///posts.db",
+        "BINDS" : {
+            "messages"  : "sqlite:///messages.db"
+        },
+        "ADMIN_USERNAME" : "TahaTariq73",
+        "ADMIN_PASSWORD" : "^&TAHA%1727$()",
+        "TRACK_MODIFICATIONS" : true
+    }
+}

@@ -1,0 +1,19 @@
+/* For creating a responsive navbar */
+
+.responsive-nav{
+    height: 0px;
+    display: none;
+    transition: all 0.4s;
+}
+
+.responsive-nav li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 0;
+    height: auto;
+}
+
+.responsive-nav li:hover{
+    background-color: #263238;
+}
