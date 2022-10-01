@@ -5,7 +5,7 @@
             "messages"  : "sqlite:///messages.db"
         },
         "ADMIN_USERNAME" : "TahaTariq73",
-        "ADMIN_PASSWORD" : "^&TAHA%1727$()",
+        "ADMIN_PASSWORD" : "password",
         "TRACK_MODIFICATIONS" : true
     }
 }
